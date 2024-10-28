@@ -1,0 +1,26 @@
+Reverse Words in a String Problem No 151 Medium
+<br>
+Approach 
+<br>
+Reverse(s.begin(), s.end());
+<br>
+for(i=0; i<n; i++)
+{
+<br>
+string word = "";
+<br>
+while(i<n && s[i]! =' '){
+<br>
+word += s[i];
+<br>
+
+i++;
+}
+<br>
+reserve(word.begin(), word.end());
+<br>
+if (word.begin() >0)
+<br>
+ans +="" + word;
+}
+
