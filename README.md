@@ -19,7 +19,7 @@ AlphaNumeric
 <br>
 a-z, A-Z, 0-9
 <br>
-concet 
+concept
 
 
  while(s.length()>0 && s.find(part) <s.length())
