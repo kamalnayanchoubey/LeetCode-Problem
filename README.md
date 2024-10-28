@@ -19,5 +19,14 @@ AlphaNumeric
 <br>
 a-z, A-Z, 0-9
 <br>
+concet 
+
+
+ while(s.length()>0 && s.find(part) <s.length())
+        {
+            s.erase(s.find(part),part.length());
+        }
+        return s;
+}
 
 
