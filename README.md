@@ -1,3 +1,33 @@
+#LeetCode Probleam
+Remove All Occurrences of a Substring
+Problem No=1910 medium 
+
+solve valid palindrome 
+
+(1)Approach
+st=0, end = n-1
+while(st < end){
+    is AlphaNum(!str[st]) st++; continue;
+    is AlphaNum(!str[end]) end --; continue;
+    if (str [st]==str[end])
+}
+
+
+(2)Approach
+
+1str.find (substr)<str.length()
+2str.erase(start,end)
+[st,end]
+
+
+concept
+while(s.length()>0 && s.find(part)<s.length{
+    s.earase[st.length]
+}
+
+
+
+
 #LeetCode Problem
 Reverse Words in a String Problem No 151 Medium
 <br>
